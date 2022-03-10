@@ -23,7 +23,7 @@ foreach($qry->fetch_array() as $k => $val){
 			<input type="email" class="form-control" name="email"  value="<?php echo isset($email) ? $email :'' ?>" required>
 		</div>
 		<div class="form-group">
-			<label for="" class="control-label">Contact #</label>
+			<label for="" class="control-label">Phone No:</label>
 			<input type="text" class="form-control" name="contact"  value="<?php echo isset($contact) ? $contact :'' ?>" required>
 		</div>
 		<div class="form-group">

@@ -81,6 +81,10 @@ div#login-right::before {
     height: calc(100%);
     /*background: #000000e0;*/
 }
+.mylogo{
+	width:50%;
+	margin-left:25%;
+}
 
 </style>
 
@@ -93,6 +97,7 @@ div#login-right::before {
 
   		<div id="login-right" class="bg-danger">
   			<div class="w-100">
+			  <img src="assets/uploads/redcross.svg" alt="RedCross Logo" class="mylogo">
 			<h4 class="text-white text-center"><b><?php echo $_SESSION['system']['name'] ?></b></h4>
 			<br>
 			<br>

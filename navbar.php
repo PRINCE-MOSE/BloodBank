@@ -19,6 +19,12 @@
 				<?php if($_SESSION['login_type'] == 1): ?>
 				<a href="index.php?page=users" class="nav-item nav-users"><span class='icon-field'><i class="fa fa-users text-danger"></i></span> Users</a>
 				<!-- <a href="index.php?page=site_settings" class="nav-item nav-site_settings"><span class='icon-field'><i class="fa fa-cogs text-danger"></i></span> System Settings</a> -->
+				<hr>
+				<h4 style="color:white;"> System By: <br>
+					 Moses S. Wekesa
+				</h4>
+				<hr>
+				<img src="assets/uploads/redcross.svg" alt="RedCross Logo">
 			<?php endif; ?>
 		</div>
 
